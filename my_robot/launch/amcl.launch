@@ -13,6 +13,14 @@
     
      <param name="initial_pose_x" value="0"/>
      <param name="initial_pose_y" value="0"/>
+     <param name="update_min_d" value="0.1"/>
+     <param name="update_min_a" value="0.26"/>
+     <param name="laser_z_hit" value=".9"/>
+     <param name="laser_z_short" value="0.1"/>
+     <param name="laser_z_rand" value="0.05"/>
+     <param name="laser_min_range" value="-1.0"/>
+      <param name="laser_max_range" value="-1.0"/>
+
   </node>
   
   <node name="move_base" pkg="move_base" type="move_base" respawn="false" output="screen">
