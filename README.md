@@ -11,7 +11,7 @@ Initialize the workspace and clone this repository:
 ```
 cd catkin_ws/src
 catkin_init_worksapce
-git clone https://github.com/shmousavi65/Robotics_Chase_the_Ball
+git clone https://github.com/shmousavi65/Robotics_Localization_with_Adaptive_Monte_Carlo.git
 ```
 Build the project:
 ```
